@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.everardo.json_parsing.vista_individual"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idpersona"
+            android:text="@string/id"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_idpersona"
+        android:text="@string/id"
+        android:textColor="#ab5634"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="3dp"
+        /></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:text="@string/nombre"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nombre"
+        android:text="@string/nombre"
+        android:textColor="#ab5634"
+        android:paddingLeft="8dp"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apellidos"
+            android:text="@string/apellidos"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_apellidos"
+        android:text="@string/apellidos"
+        android:textColor="#ab5634"
+        android:paddingLeft="8dp"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipo"
+            android:text="@string/tipo_examen"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_tipo_examen"
+        android:text="@string/tipo_examen"
+        android:textColor="#ab5634"
+            android:paddingLeft="8dp"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nivel"
+            android:text="@string/nivel"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_nivel"
+        android:text="@string/nivel"
+        android:textColor="#ab5634"
+            android:paddingLeft="8dp"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fecha"
+            android:text="@string/fecha"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_fecha"
+        android:text="@string/fecha"
+        android:textColor="#ab5634"
+        android:paddingLeft="8dp"
+        android:textStyle="italic"
+        android:paddingBottom="3dp"
+        />
+</LinearLayout>
+</LinearLayout>
